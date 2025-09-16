@@ -1,0 +1,73 @@
+.section {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  background-color: #b7cad7;
+
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.section input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+.section input:focus {
+  border-color: #4cafef;
+  box-shadow: 0 0 5px gray;
+}
+.section button {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  background: gray;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.section button:hover {
+  background: gray;
+}
+.lista-compras {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.lista-compras li {
+  padding: 10px;
+  margin-bottom: 8px;
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lista-compras li:nth-child(even) {
+  background: white;
+}
+.btn-eliminar {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  background: #e74c3c;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.btn-eliminar:hover {
+  background: #c0392b;
+}
