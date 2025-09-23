@@ -1,0 +1,62 @@
+@media (max-width: 768px) {
+  .header {
+    font-size: 1.4rem;
+    height: 4rem;
+  }
+
+  #btnDownload {
+    width: 36px;
+    height: 36px;
+  }
+
+  .section {
+    width: 95%;
+    padding: 1.5rem;
+  }
+
+  .section input,
+  .section button {
+    font-size: 0.95rem;
+  }
+
+  .lista-compras li {
+    font-size: 0.85rem;
+    padding: 0.6rem;
+  }
+}
+
+/* teléfonos */
+@media (max-width: 480px) {
+  .header {
+    font-size: 1.2rem;
+    height: 3.5rem;
+  }
+
+  #btnDownload {
+    width: 32px;
+    height: 32px;
+  }
+
+  .section {
+    width: 100%;
+    padding: 1rem;
+    margin: 40px auto;
+  }
+
+  .section input,
+  .section button {
+    font-size: 0.85rem;
+    padding: 0.6rem;
+  }
+
+  .lista-compras li {
+    font-size: 0.8rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .btn-eliminar {
+    font-size: 0.75rem;
+    align-self: flex-end;
+  }
+}
