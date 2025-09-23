@@ -1,5 +1,5 @@
-import { obtenerHeader } from "./componentes/header/header.js";
-import { obtenerSection } from "./componentes/section/section.js";
+import { obtenerHeader } from "./componentes/header/headerComponent.js";
+import { obtenerSection } from "./componentes/section/sectionComponent.js";
 
 function lista() {
     let paginaLista = document.createElement("div");

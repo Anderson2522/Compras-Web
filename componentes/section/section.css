@@ -6,6 +6,7 @@
   border-radius: 16px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   background-color: #b7cad7;
+  margin-top: 10rem;
 
   display: flex;
   flex-direction: column;
@@ -70,4 +71,14 @@
 }
 .btn-eliminar:hover {
   background: #c0392b;
+}
+.total {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+  padding: 10px;
+  margin-top: 10px;
+  background: gray;
+  border-radius: 8px;
+  border: 1px solid #ddd;
 }
